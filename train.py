@@ -46,7 +46,7 @@ class Config:
     batch_size = 96
     # --- GAN fazı ---
     run_gan = True
-    gan_epochs = 3000           # kaynak notebook degeri; Colab'de azaltabilirsin
+    gan_epochs = 3000           # kaynak notebook degeri; 
     gan_lr = 2e-4
     minority_classes = [1, 2, 3, 4]   # N (0) cogunluk; digerleri nadir
     synthetic_per_class = 5000
