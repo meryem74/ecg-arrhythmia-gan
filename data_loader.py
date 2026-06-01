@@ -43,7 +43,7 @@ SIGNAL_LENGTH = 187   # Bir atımdaki örnek sayısı / samples per heartbeat
 NUM_CLASSES = 5
 SEED = 2021
 
-# Jüriye karşı "etiketler tıbben ne demek?" sorusunun hazır cevabı:
+
 ID_TO_LABEL = {
     0: "N - Normal beat",
     1: "S - Supraventricular ectopic",
