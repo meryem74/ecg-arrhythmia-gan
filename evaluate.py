@@ -9,7 +9,7 @@ Neden accuracy TEK BAŞINA yeterli değil? / Why accuracy alone is misleading:
   accuracy alabilir ama hayati aritmileri kaçırır. Bu yüzden sınıf-bazlı
   (per-class) ve makro-ortalamalı metriklere bakıyoruz.
 
-Klinik metrik sözlüğü / Clinical metric glossary (JÜRİ İÇİN):
+Klinik metrik sözlüğü / Clinical metric glossary:
 - Recall (= Sensitivity / Duyarlılık): "Gerçek aritmilerin kaçını yakaladık?"
   EN KRİTİK metrik. Düşük recall = yüksek FALSE NEGATIVE = kaçırılan hasta.
 - Precision (= PPV / Pozitif Kestirim Değeri): "Aritmi dediklerimizin kaçı
@@ -155,7 +155,7 @@ def plot_attention(model, signal, device, save_path="attention.png", label=None)
     Attention ağırlıklarını EKG sinyalinin üstüne renk olarak bindirir.
     Overlays attention weights on the raw ECG beat.
 
-    JÜRİYE GÖSTERECEĞİN ŞEY:
+ 
     - Sıcak (parlak) renkler modelin tanı için "baktığı" bölgelerdir.
     - İyi eğitilmiş modelde bu odak QRS kompleksi / R-tepesi civarında
       yoğunlaşır -> modelin kararını klinik olarak anlamlı bir bölgeye
